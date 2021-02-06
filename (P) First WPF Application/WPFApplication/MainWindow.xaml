@@ -10,7 +10,7 @@
         <TextBox x:Name="txtNames" HorizontalAlignment="Left" Margin="169,134,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
         <Label x:Name="lblTitle" Content="My First WPF Application (P)" Margin="235,10,235,349" Background="{x:Null}" Foreground="#FFF3E04E" FontWeight="Bold" FontSize="22"/>
         <TextBox x:Name="txtBirthdate" HorizontalAlignment="Left" Margin="529,134,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <Button x:Name="btnCalculate" Content="Button" HorizontalAlignment="Center" Margin="0,351,0,0" VerticalAlignment="Top" Background="#FFF3E04E" Foreground="White" FontWeight="Bold" FontSize="24" Click="btnCalculateClick" Height="46" Width="116" MouseEnter="btnEnter" MouseLeave="btnLeave"/>
+        <Button x:Name="btnCalculate" Content="Calculate Age" HorizontalAlignment="Center" Margin="0,313,0,0" VerticalAlignment="Top" Background="#FFF3E04E" Foreground="White" FontWeight="Bold" FontSize="24" Click="btnCalculateClick" Height="46" Width="188" MouseEnter="btnEnter" MouseLeave="btnLeave"/>
         <Label Content="Name:" HorizontalAlignment="Left" Margin="196,90,0,0" VerticalAlignment="Top" FontSize="18" Background="{x:Null}" Foreground="#FFF3E04E" FontWeight="Bold"/>
         <Label Content="Birthdate mm/dd/yyyy" HorizontalAlignment="Left" Margin="484,90,0,0" VerticalAlignment="Top" FontSize="18" Background="{x:Null}" Foreground="#FFF3E04E" FontWeight="Bold"/>
 
