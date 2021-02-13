@@ -33,7 +33,7 @@ namespace _P__WPF___Classes
 
         public override string ToString()
         {
-            return $"{Name}: {Address} \n {Zipcode}";
+            return $"{Name}: {Address}, {Zipcode}";
         }
 
 

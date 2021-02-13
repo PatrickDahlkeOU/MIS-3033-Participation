@@ -6,12 +6,15 @@
         xmlns:local="clr-namespace:_P__WPF___Classes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="" Background="#FF009B77">
-        <Button x:Name="btnSubmit" Content="Button" HorizontalAlignment="Center" Margin="0,348,0,0" VerticalAlignment="Top" Click="btnSubmit_Click"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="130,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Visible"/>
-        <TextBox x:Name="txtStreet" HorizontalAlignment="Left" Margin="130,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
-        <TextBox x:Name="txtZip" HorizontalAlignment="Left" Margin="130,287,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <ListBox x:Name="lstClasses" Margin="567,0,0,226"/>
+    <Grid x:Name="Grid" Background="#FF009B77">
+        <Button x:Name="btnSubmit" Content="Sumbit Form" HorizontalAlignment="Center" Margin="0,348,0,0" VerticalAlignment="Top" Click="btnSubmit_Click" FontSize="20"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="130,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" Visibility="Visible" FontSize="16"/>
+        <TextBox x:Name="txtStreet" HorizontalAlignment="Left" Margin="130,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="220" FontSize="16"/>
+        <TextBox x:Name="txtZip" HorizontalAlignment="Left" Margin="130,287,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="220" FontSize="16"/>
+        <ListBox x:Name="lstClasses" Margin="422,0,0,226"/>
+        <Label Content="Name" HorizontalAlignment="Left" Margin="51,99,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="White" RenderTransformOrigin="0.615,1.492"/>
+        <Label Content="Address" HorizontalAlignment="Left" Margin="42,0,0,0" VerticalAlignment="Center" FontSize="18" FontWeight="Bold" Foreground="White"/>
+        <Label Content="Zip Code" HorizontalAlignment="Left" Margin="34,276,0,0" VerticalAlignment="Top" FontSize="18" FontWeight="Bold" Foreground="White"/>
 
 
     </Grid>
