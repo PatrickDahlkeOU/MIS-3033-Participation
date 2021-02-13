@@ -23,6 +23,19 @@ namespace _P__WPF___Classes
         public MainWindow()
         {
             InitializeComponent();
+            
+        }
+
+        private void btnSubmit_Click(object sender, RoutedEventArgs e)
+        {
+            EntryForm myForm = new EntryForm
+            {
+                Name = txtName.Text,
+                Address = txtStreet.Text,
+                Zipcode = int.Parse(txtZip.Text)
+            };
+
+            lstClasses.Items.Add(myForm);
         }
     }
 }

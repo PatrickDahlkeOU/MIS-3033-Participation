@@ -6,11 +6,12 @@
         xmlns:local="clr-namespace:_P__WPF___Classes"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid x:Name="btnSubmit" Background="#FF009B77">
-        <Button Content="Button" HorizontalAlignment="Center" Margin="0,348,0,0" VerticalAlignment="Top"/>
-        <TextBox x:Name="txtName" HorizontalAlignment="Center" Margin="0,113,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtStreet" HorizontalAlignment="Center" Margin="0,199,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
-        <TextBox x:Name="txtZip" HorizontalAlignment="Center" Margin="0,289,0,0" Text="TextBox" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+    <Grid x:Name="" Background="#FF009B77">
+        <Button x:Name="btnSubmit" Content="Button" HorizontalAlignment="Center" Margin="0,348,0,0" VerticalAlignment="Top" Click="btnSubmit_Click"/>
+        <TextBox x:Name="txtName" HorizontalAlignment="Left" Margin="130,104,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120" Visibility="Visible"/>
+        <TextBox x:Name="txtStreet" HorizontalAlignment="Left" Margin="130,0,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Center" Width="120"/>
+        <TextBox x:Name="txtZip" HorizontalAlignment="Left" Margin="130,287,0,0" Text="" TextWrapping="Wrap" VerticalAlignment="Top" Width="120"/>
+        <ListBox x:Name="lstClasses" Margin="567,0,0,226"/>
 
 
     </Grid>

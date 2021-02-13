@@ -5,6 +5,7 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>_P__WPF___Classes</RootNamespace>
     <UseWPF>true</UseWPF>
+    <AssemblyName>WPF1</AssemblyName>
   </PropertyGroup>
 
 </Project>

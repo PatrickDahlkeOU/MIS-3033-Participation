@@ -24,17 +24,17 @@ namespace _P__WPF___Classes
 
         public EntryForm ( string name, string address, int zipCode )
         {
+            Name = name;
 
+            Address = address;
+
+            Zipcode = zipCode;
         }
 
         public override string ToString()
         {
-            return "Placement Words";
+            return $"{Name}: {Address} \n {Zipcode}";
         }
-
-
-
-
 
 
     }
